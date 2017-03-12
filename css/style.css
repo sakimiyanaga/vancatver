@@ -12,17 +12,24 @@ a {
 }
 
 footer {
-	background-color: white;
+	background-image: url(../img/navbar-bg.jpg);
 	color: black;
+	background-size: cover;
+	background-repeat: repeat;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-weight: 100;
 	font-size: 15px;
+	border-top: 1px black solid;
+}
+
+footer .col-md-3 {
+	padding-left: 40px;
 }
 
 @media only screen and (max-width: 768px){
-.item6 {
-	max-width: 40%;
+.col-md-2 img {
+	width: 60%;
 }
 }
 .glyphicon {
@@ -30,7 +37,10 @@ footer {
 }
 
 .navbar {
+	background-image: url(../img/navbar-bg.jpg);
 	background-color: rgba(255,255,255,0.8);
+	background-repeat: repeat;
+	background-size: center;
 }
 
 .navbar a {
@@ -59,28 +69,6 @@ footer {
 .icon-bar {
 	background-color: black;
 }
-header {
-    text-align: left;
-    background-attachment: scroll;
-    background-image: url("../img/maomaoandme.jpg");
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
- }
-
-@media only screen and (max-width: 768px){
-.intro-text {
-	width: 80%;
-}
-}
-.intro-text a {
-	text-decoration: none;
-	font-weight: normal;
-}
-
 
 form {
 	margin-bottom: 20px;
@@ -115,24 +103,8 @@ form {
 	color: #919191;
 }
 
-.bg-green {
-	background-color: rgb(0,153,102);
-}
-
-.bg-grey {
-	background-color: #cccccc;
-}
-
-footer {
-	border-top: 1px black solid;
-}
-
 footer .col-md-3 {
 	padding-left: 40px;
-}
-
-.poster-wrapper {
-	position: relative;
 }
 
 .poster-wrapper img {
