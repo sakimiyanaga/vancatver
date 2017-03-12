@@ -6,25 +6,25 @@ body {
 }
 
 a {
-	font-weight: 100;
 	text-decoration: none;
 	letter-spacing: 1px;
-}
-
-h1 {
-	font-family: 'Oleo Script',"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 42px;
+	color: black;
 }
 
 footer {
 	background-color: white;
-	color: grey;
+	color: black;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-weight: 100;
-	font-size: 12px;
+	font-size: 15px;
 }
 
+@media only screen and (max-width: 768px){
+.item6 {
+	max-width: 40%;
+}
+}
 .glyphicon {
 	padding: 10px;
 }
@@ -42,13 +42,7 @@ footer {
 	color: black;
 	background-color: rgba(186,186,186,0.5);
 }
-.intro-text a {
-	color: #919191;
-	transition: 0.5s;
-}
-.intro-text a:hover{
-	color: black;
-}
+
 .navbar-toggle {
   position: relative;
   float: right;
@@ -77,18 +71,6 @@ header {
     -o-background-size: cover;
  }
 
-.intro-text {
-	height: 100%;
-	width: 35%;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 10%;
-	margin-bottom: 10%;
-	border: black 1px solid;
-	padding: 20px;
-	background-color: rgba(255,255,255,0.5);
-}
-
 @media only screen and (max-width: 768px){
 .intro-text {
 	width: 80%;
@@ -98,21 +80,7 @@ header {
 	text-decoration: none;
 	font-weight: normal;
 }
-#trueresume {
-	color: transparent;
-}
-#trueresume:hover {
-	color: white;
-}
 
-.portfolio-img {
-	border-radius: 10px;
-}
-
-.portfolio-caption p {
-	font-style: italic;
-	color: #919191;
-}
 
 form {
 	margin-bottom: 20px;
@@ -168,14 +136,14 @@ footer .col-md-3 {
 }
 
 .poster-wrapper img {
-	max-width: 100%;
+	max-width: 90%;
 	max-height: 100%;
+	margin: 10px 0px;
 }
 
-
-
-
-
+.col-md-3 {
+	padding: 5px;
+}
 
 
 
