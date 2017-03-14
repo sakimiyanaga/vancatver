@@ -113,21 +113,39 @@ form {
 	margin-right: auto;
 }
 }
-.section-heading {
-	margin-top: 40px;
-	margin-bottom: 40px;
-	color: #919191;
+/*以下是喵说的slide up动画*/
+.poster-wrapper {
+  overflow: hidden;
+  position: relative;
+  margin: 10px 0px;
 }
-.poster-wrapper img {
-	max-width: 90%;
+.poster-wrapper img,
+.poster-content {
+	max-width: 100%;
 	max-height: 100%;
-	margin: 10px 0px;
 }
+
+.poster-content {
+  background-color: rgba(255,255,255,0.5);
+  padding: 10px;
+  position: absolute;
+  bottom: -185px;
+  transition: all 0.5s ease;
+}
+.poster-content h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.poster-wrapper:hover .poster-content {
+  background-color: rgba(255,255,255,0.9);
+  bottom: 0;
+}
+/* end */
 
 .col-md-3 {
 	padding: 5px;
 }
-
 
 
 
