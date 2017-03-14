@@ -1,4 +1,5 @@
 body {
+	background-color: #fff2f2;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: fixed;
@@ -20,7 +21,8 @@ footer {
 	padding-bottom: 10px;
 	font-weight: 100;
 	font-size: 15px;
-	border-top: 1px black solid;
+	border-top: 1px pink solid;
+	overflow: hidden;
 }
 
 footer .col-md-3 {
@@ -36,11 +38,15 @@ footer .col-md-3 {
 	padding: 10px;
 }
 
+.navbar-brand img {
+	height: 30px;
+}
 .navbar {
 	background-image: url(../img/navbar-bg.jpg);
 	background-color: rgba(255,255,255,0.8);
 	background-repeat: repeat;
-	background-size: center;
+	background-size: cover;
+	border-bottom: 1px solid pink;
 }
 
 .navbar a {
@@ -62,12 +68,12 @@ footer .col-md-3 {
   margin-bottom: 8px;
   background-color: rgba(255,255,255,0.6);
   background-image: none;
-  border: 2px solid black;
+  border: 2px solid pink;
   border-radius: 5;
 }
 
 .icon-bar {
-	background-color: black;
+	background-color: pink;
 }
 
 form {
@@ -102,11 +108,6 @@ form {
 	margin-bottom: 40px;
 	color: #919191;
 }
-
-footer .col-md-3 {
-	padding-left: 40px;
-}
-
 .poster-wrapper img {
 	max-width: 90%;
 	max-height: 100%;
