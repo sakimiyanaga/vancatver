@@ -1,9 +1,20 @@
+html {
+	margin: 0;
+	overflow-x: hidden;
+}
+
 body {
 	background-color: #fff2f2;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: fixed;
-	padding-top: 50px;
+	padding-top: 75px;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+header {
+	margin: 0;
 }
 
 a {
@@ -45,10 +56,10 @@ footer .col-md-3 {
 }
 #logo1 {
 	height: 50px;
-	padding-left: 50px;
 }
 .navbar {
 	height: 80px;
+	width: 100%;
 	background-image: url(../img/navbar-bg.jpg);
 	background-color: rgba(255,255,255,0.8);
 	background-repeat: repeat;
