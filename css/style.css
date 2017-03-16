@@ -185,11 +185,12 @@ form {
 		width: 100%;
 		text-align: left;
 		background-color: white;
+		padding-right: 10px;
 	}
 	.poster-wrapper img{
 		width: 50%;
 		float: left;
-		margin-right: 15px;
+		margin-right: 10px;
 	}
 	.poster-wrapper:hover img {
 		transform: none;
