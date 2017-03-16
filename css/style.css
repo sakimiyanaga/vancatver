@@ -29,11 +29,6 @@ footer .col-md-3 {
 	padding-left: 40px;
 }
 
-@media only screen and (max-width: 768px){
-.col-md-2 img {
-	width: 60%;
-}
-}
 .glyphicon {
 	padding: 10px;
 }
@@ -86,6 +81,22 @@ footer .col-md-3 {
 	background-color: pink;
 }
 
+/* navbar collapse earlier*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+/* end */
 form {
 	margin-bottom: 20px;
 }
@@ -152,6 +163,13 @@ form {
 .poster-wrapper:hover img {
 	transform: scale(1.05);
 	-webkit-transform: scale(1.05);
+}
+
+@media only screen and (max-width: 768px) {
+	.poster-wrapper img {
+		max-width: 100%;
+		size: cover;
+	}
 }
 /* end */
 
