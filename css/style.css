@@ -184,6 +184,7 @@ form {
 	.poster-wrapper {
 		width: 100%;
 		text-align: left;
+		background-color: white;
 	}
 	.poster-wrapper img{
 		width: 50%;
@@ -198,6 +199,10 @@ form {
 		position: center;
 		float: right;
 		position: relative;
+	}
+	.poster-wrapper h3,
+	.poster-wrapper p {
+		font-size: 12px;
 	}
 }
 /* end */
