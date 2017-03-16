@@ -9,8 +9,8 @@ body {
 	background-repeat: no-repeat;
 	background-position: fixed;
 	padding-top: 75px;
-	border: 1px solid black;
 	box-sizing: border-box;
+	overflow-x: hidden;
 }
 
 header {
@@ -38,11 +38,15 @@ footer {
 
 footer .col-md-3 {
 	padding-left: 40px;
+	text-align: left;
+}
+footer img {
+	height: 20px;
+	margin-right: 10px;
 }
 
 .glyphicon {
 	padding: 10px;
-}
 }
 .navbar-header a {
 	padding-bottom: 65px;
@@ -177,9 +181,23 @@ form {
 }
 
 @media only screen and (max-width: 768px) {
-	.poster-wrapper img {
-		max-width: 100%;
-		size: cover;
+	.poster-wrapper {
+		width: 100%;
+		text-align: left;
+	}
+	.poster-wrapper img{
+		width: 50%;
+		float: left;
+		margin-right: 15px;
+	}
+	.poster-wrapper:hover img {
+		transform: none;
+	}
+	.poster-content {
+		width: 35%;
+		position: center;
+		float: right;
+		position: relative;
 	}
 }
 /* end */
