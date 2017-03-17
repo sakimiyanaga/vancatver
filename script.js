@@ -1,4 +1,4 @@
-$(window).load(function() {
+//$(window).load(function() {
     
     var viewportWidth = $(window).width();
     if (viewportWidth < 768) {
