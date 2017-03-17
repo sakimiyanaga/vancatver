@@ -7,7 +7,7 @@
 	<title>Vancatver</title>
 </head>
 <body>
-<nav class="navbar navbar-fixed-top navbar-shrink">
+<nav class="navbar navbar-fixed-top navbar-shrink bs-navbar-collapse">
 	<div class="container">
 		<div class="page-scroll">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target='.navbar-collapse'>
@@ -17,15 +17,21 @@
 			</button>
 			<a class="navbar-brand page-scroll" href="index.html"><img class="img-relative" id="logo1" src="img/logo.jpeg"></a>
 		</div>
-		<div class="navbar-collapse collapse">
+		<div class="navbar-collapse collapse" id="mainNavbarCollapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a class="page-scroll" href="#baike">猫咪百科</a></li>
-				<li><a class="page-scroll" href="#meowtagram">喵说</a></li>
-				<li><a class="page-scroll" href="#luntan">论坛</a></li>
-				<li><a class="page-scroll" href="product.html">产品推荐</a></li>
+				<li><a href="#baike">猫咪百科</a></li>
+				<li><a href="#meowtagram">喵说</a></li>
+				<li><a href="#luntan">论坛</a></li>
+				<li class="dropdown"><a class="nav-link" id="navbarDropdown1" data-target="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">好物推荐</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+					<li><a class="dropdown-item" href="product.html">宠物医院推荐</a></li>
+					<li><a class="dropdown-item" href="#">宠物用品推荐</a></li>
+					<li><a class="dropdown-item" href="#">限时折扣</a></li>
+				</ul>
 				<li><a href="#search" id="searchlogo"><img src="img/searchlogo.jpeg"></a></li>
 				<li><a href="#about" id="catlogo3"><img src="img/catlogo3.jpeg"></a></li>
 			</ul>
+			</li>
 		</div>
 	</div>
 </nav>

@@ -7,7 +7,7 @@
 	<title>Vancatver</title>
 </head>
 <body>
-<nav class="navbar navbar-fixed-top navbar-shrink">
+<nav class="navbar navbar-fixed-top navbar-shrink bs-navbar-collapse">
 	<div class="container">
 		<div class="page-scroll">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target='.navbar-collapse'>
@@ -17,21 +17,27 @@
 			</button>
 			<a class="navbar-brand page-scroll" href="index.html"><img class="img-relative" id="logo1" src="img/logo.jpeg"></a>
 		</div>
-		<div class="navbar-collapse collapse">
+		<div class="navbar-collapse collapse" id="mainNavbarCollapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a class="page-scroll" href="#baike">猫咪百科</a></li>
-				<li><a class="page-scroll" href="#meowtagram">喵说</a></li>
-				<li><a class="page-scroll" href="#luntan">论坛</a></li>
-				<li><a class="page-scroll" href="#product">产品推荐</a></li>
+				<li><a href="#baike">猫咪百科</a></li>
+				<li><a href="#meowtagram">喵说</a></li>
+				<li><a href="#luntan">论坛</a></li>
+				<li class="dropdown"><a class="nav-link" id="navbarDropdown1" data-target="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">好物推荐</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+					<li><a class="dropdown-item" href="product.html">宠物医院推荐</a></li>
+					<li><a class="dropdown-item" href="#">宠物用品推荐</a></li>
+					<li><a class="dropdown-item" href="#">限时折扣</a></li>
+				</ul>
 				<li><a href="#search" id="searchlogo"><img src="img/searchlogo.jpeg"></a></li>
 				<li><a href="#about" id="catlogo3"><img src="img/catlogo3.jpeg"></a></li>
 			</ul>
+			</li>
 		</div>
 	</div>
 </nav>
 
 <div class="side-bar">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target='.sidebar-toggle'>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target='.navbar-toggle'>
 				<span class='glyphicon glyphicon-plus'></span>
 			</button>
 <div class="text-center collapse navbar-collapse">
@@ -50,6 +56,52 @@
 <br>
 <br>
 <br>
+<div id="vancouver">
+<div class="row clearfix">
+<div class="col-md-3"></div>
+<div class="col-md-6 col-xs-12 text-center">	
+	<a target="blank" href="https://www.edmondsstanimalhospital.com/"><h2 rows="2">Edmond Animal Hospital</h2></a>
+	<br>
+	<br>
+	<p>Address: xxxx Edmond Street, Burnaby</p>
+	<p>Phone: xxx-xxx-xxxx</p>
+	<div class="table-responsive">
+	<table class="table">
+	<thead>
+    <tr>
+    <th>#</th>
+      <th>服务项目</th>
+      <th>价格</th>
+    </tr>
+  	</thead>
+  	<tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>常规检查</td>
+      <td>$20</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>疫苗</td>
+      <td>$35</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>绝育</td>
+      <td>$150</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>寄养</td>
+      <td>$20/天</td>
+    </tr>
+  	</tbody>
+	</table>
+	</div>
+	</div>
+	<div class="col-md-3"></div>
+</div>
+</div>
 <div id="burnaby">
 <div class="row clearfix">
 <div class="col-md-3"></div>
@@ -95,91 +147,14 @@
 	</div>
 	<div class="col-md-3"></div>
 </div>
-<div class="col-md-4 col-xs-12 text-center">
-<a target="blank" href="metrotownanimalhospital.ca"><h2>Metrotown Animal Hospital</h2></a>
-<p>Address: xxxx Edmond Street, Burnaby</p>
-	<p>Phone: xxx-xxx-xxxx</p>
-	<div class="table-responsive">
-	<table class="table">
-	<thead>
-    <tr>
-    <th>#</th>
-      <th>服务项目</th>
-      <th>价格</th>
-    </tr>
-  	</thead>
-  	<tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>常规检查</td>
-      <td>$20</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>疫苗</td>
-      <td>$35</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>绝育</td>
-      <td>$150</td>
-    </tr>
-    <tr>
-      <th scope="row">4</th>
-      <td>寄养</td>
-      <td>$20/天</td>
-    </tr>
-  </tbody>
-</table>
-	</div>
-	</div>
-	<div class="col-md-4 col-xs-12 text-center">
-<a target="blank" href="metrotownanimalhospital.ca"><h2>Metrotown Animal Hospital</h2></a>
-<p>Address: xxxx Edmond Street, Burnaby</p>
-	<p>Phone: xxx-xxx-xxxx</p>
-	<div class="table-responsive">
-	<table class="table">
-	<thead>
-    <tr>
-    <th>#</th>
-      <th>服务项目</th>
-      <th>价格</th>
-    </tr>
-  	</thead>
-  	<tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>常规检查</td>
-      <td>$20</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>疫苗</td>
-      <td>$35</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>绝育</td>
-      <td>$150</td>
-    </tr>
-    <tr>
-      <th scope="row">4</th>
-      <td>寄养</td>
-      <td>$20/天</td>
-    </tr>
-  </tbody>
-</table>
-	</div>
-	</div>
 </div>
-</div>
-<br>
-<br>
-<br>
 <div id="richmond">
 <div class="row clearfix">
-<div class="col-md-4 col-xs-12 text-center">	
+<div class="col-md-3"></div>
+<div class="col-md-6 col-xs-12 text-center">	
 	<a target="blank" href="https://www.edmondsstanimalhospital.com/"><h2 rows="2">Edmond Animal Hospital</h2></a>
+	<br>
+	<br>
 	<p>Address: xxxx Edmond Street, Burnaby</p>
 	<p>Phone: xxx-xxx-xxxx</p>
 	<div class="table-responsive">
@@ -216,7 +191,54 @@
 	</table>
 	</div>
 	</div>
-
+	<div class="col-md-3"></div>
+</div>
+</div>
+<div id="newwestminster">
+<div class="row clearfix">
+<div class="col-md-3"></div>
+<div class="col-md-6 col-xs-12 text-center">	
+	<a target="blank" href="https://www.edmondsstanimalhospital.com/"><h2 rows="2">Edmond Animal Hospital</h2></a>
+	<br>
+	<br>
+	<p>Address: xxxx Edmond Street, Burnaby</p>
+	<p>Phone: xxx-xxx-xxxx</p>
+	<div class="table-responsive">
+	<table class="table">
+	<thead>
+    <tr>
+    <th>#</th>
+      <th>服务项目</th>
+      <th>价格</th>
+    </tr>
+  	</thead>
+  	<tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>常规检查</td>
+      <td>$20</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>疫苗</td>
+      <td>$35</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>绝育</td>
+      <td>$150</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>寄养</td>
+      <td>$20/天</td>
+    </tr>
+  	</tbody>
+	</table>
+	</div>
+	</div>
+	<div class="col-md-3"></div>
+</div>
 </div>
 </div>
 

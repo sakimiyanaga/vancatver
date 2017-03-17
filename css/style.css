@@ -105,7 +105,9 @@ footer img {
 	color: grey;
 	transition: 0.5s;
 }
-.navbar li > a:hover {
+.navbar li > a:hover,
+.navbar li > a:focus,
+.navbar li > a:active{
 	color: white;
     -webkit-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
     -moz-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
@@ -114,7 +116,6 @@ footer img {
     text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
     background-color: transparent;
 }
-
 .navbar-toggle {
     position: relative;
     float: right;
@@ -332,3 +333,8 @@ table {
     background-color: rgb(255,255,255);
     border: none;
 }
+
+.dropdown-menu {
+		position: relative;
+		float: none;
+	}
