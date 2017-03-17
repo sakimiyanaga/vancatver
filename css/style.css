@@ -168,6 +168,9 @@ footer img {
 	#searchlogo:hover, #catlogo3:hover {
 		transform-origin: 50% 50%;
 	}
+	.col-md-6 {
+		width: 100%;
+	}
 
 }
 /* end */
@@ -281,4 +284,18 @@ form {
 .test {
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+.price-list {
+	position: center;
+}
+.col-md-6 {
+	padding: 30px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+table {
+	text-align: left;
+	margin: auto 20px;
 }
