@@ -4,6 +4,7 @@ html {
 }
 *{
 	list-style: none;
+	font-weight: bold;
 }
 body {
 	background-color: transparent;
@@ -51,14 +52,14 @@ footer {
 	background-repeat: repeat;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-weight: 100;
+	font-weight: bold;
 	font-size: 15px;
 	overflow: hidden;
 }
 
 footer .col-md-3 {
 	padding-left: 40px;
-	text-align: left;
+	text-align: center;
 }
 footer img {
 	height: 20px;
@@ -95,9 +96,8 @@ footer img {
 }
 .navbar {
 	height: 80px;
-	width: 100%;
-	background-image: url(../img/navbar-bg.jpg);
-	background-color: rgba(255,255,255,0.8);
+	width: 100%;;
+	background-color: rgba(255,255,255,1);
 	background-repeat: repeat;
 	background-size: cover;
 }
@@ -139,7 +139,7 @@ footer img {
 
 .icon-bar {
 	background-color: pink;
-	margin: 0;
+	margin: 10;
 
 }
 @media (max-width: 768px) {
@@ -211,20 +211,30 @@ form {
 	margin-right: auto;
 }
 }
-.section-heading h2 {
-	margin-top: 80px;
+.section-heading{
+	text-align: center;
 }
+
 /*以下是喵说的slide up动画*/
 .poster-wrapper {
   overflow: hidden;
   position: relative;
   margin: 10px 0px;
   box-sizing: border-box;
-  border: 1px black solid;
   display: inline-block;
   vertical-align: middle;
+  margin-bottom: 80px;
+}
+.poster-wrapper h3{
+	font-weight: bold;
+	margin: 5px 0 5px 0;
+	font-size: 18px;
 }
 
+.poster-wrapper p{
+	font-weight: bold;
+	font-size: 12px;
+}
 .poster-wrapper a > img {
 	max-width: 100%;
 	transition: all 0.5s ease;
@@ -235,14 +245,9 @@ form {
   	background-color: rgba(255,255,255,0.5);
   	position: absolute;
   	padding: 10px;
-  	top: 80%;
+  	top: 83%;
   	transition: all 0.5s ease;
   	text-align: left;
-}
-
-.poster-content h3 {
-  font-size: 1.5em;
-  margin-bottom: 0.5em;
 }
 
 .poster-wrapper:hover .poster-content {
@@ -271,14 +276,14 @@ form {
 		transform: none;
 	}
 	.poster-content {
-		width: 35%;
+		width: 45%;
 		position: center;
 		float: right;
 		position: relative;
 	}
 	.poster-wrapper h3,
 	.poster-wrapper p {
-		font-size: 12px;
+		font-size: 14px;
 	}
 	.google-map {
 		margin: 20px auto;
@@ -292,11 +297,14 @@ form {
 }
 
 .test img{
-	max-width: 100px;
+	max-height: 120px;
+	position: relative;
 }
-
+.test h3 {
+	font-weight: bold;
+}
 .test {
-	margin-top: 50px;
+	margin-top: 120px;
 	margin-bottom: 50px;
 }
 .price-list {
@@ -347,71 +355,11 @@ table {
 		float: none;
 }
 
-
-/* "About page" profile switch animation effect"*/
-
-.main {
-    width: 100%;
-    height: 100%;
-}
-.group {
-    width: 340px;
-    height: 40px;
-    padding: 10px 40px;
-    line-height: 40px;
-    position: relative;
-    z-index: 1;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    
+#veterinary h2 {
+	font-weight: bold;
 }
 
-.group img {
-	max-width: 100%;
+.section-heading {
+	margin-top: 80px;
+	position: relative;
 }
-.one {
-    float: left;
-    line-height: 40px;
-    color: white;
-    text-decoration: none;
-    transition: 1.0s;
-}
-.two {
-    float: right;
-    text-decoration: none;
-    line-height: 40px;
-    color: #a6afbf;
-}
-.bg {
-    background-color: #e67e22;
-    height:300px;
-    width: 300px;
-    position: absolute;
-    top: 0;
-    margin-left: -230px;
-    z-index: -1;
-    transition: 1.0s;
-    border-radius: 5px;
-    
-}
-
-span:hover + .bg {
-    width: 200px;
-    margin-left: -40px;
-    background: #27ae60;
-}
-
-.two > span:hover {
-    color: white;
-}
-
-.two:hover ~ .one {
-    color:#fff;
-}
-span {
-    padding: 10px 0;
-    transition: 1.0s;
-}
-
-/* end of effect */
