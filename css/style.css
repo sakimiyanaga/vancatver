@@ -1,3 +1,13 @@
+@font-face {
+	font-family: hiragino;
+	src: url("../fonts/冬青细黑体.otf");
+}
+
+@font-face {
+	font-family: kaishu;
+	src: url("../fonts/刘梦吟书法行楷.ttf");
+}
+
 html {
 	margin: 0;
 	overflow-x: hidden;
@@ -303,6 +313,7 @@ form {
 }
 .test h3 {
 	font-weight: bold;
+	font-family: "kaishu";
 }
 .test {
 	margin-bottom: 50px;
