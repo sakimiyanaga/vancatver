@@ -38,11 +38,11 @@ a {
 a:hover {
 	color: white;
 	text-decoration: none;
-	-webkit-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
-    -moz-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
-    -ms-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
-    -o-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
-    text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
+	-webkit-text-shadow: 0 0 10px #000000, 0 0 50px #000000;
+    -moz-text-shadow: 0 0 10px #000000, 0 0 50px #000000;
+    -ms-text-shadow: 0 0 10px #000000, 0 0 50px #000000;
+    -o-text-shadow: 0 0 10px #000000, 0 0 50px #000000;
+    text-shadow: 0 0 10px #000000, 0 0 50px #000000;
 }
 
 footer {
@@ -360,6 +360,10 @@ table {
 }
 
 .section-heading {
-	margin-top: 80px;
 	position: relative;
+}
+
+#maomitest {
+	margin-right: 18%;
+	padding: auto;
 }
