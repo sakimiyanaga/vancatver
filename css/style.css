@@ -38,11 +38,11 @@ a {
 a:hover {
 	color: white;
 	text-decoration: none;
-	-webkit-text-shadow: 0 0 10px #000000, 0 0 50px #000000;
-    -moz-text-shadow: 0 0 10px #000000, 0 0 50px #000000;
-    -ms-text-shadow: 0 0 10px #000000, 0 0 50px #000000;
-    -o-text-shadow: 0 0 10px #000000, 0 0 50px #000000;
-    text-shadow: 0 0 10px #000000, 0 0 50px #000000;
+	-webkit-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff401a;
+    -moz-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff401a;
+    -ms-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff401a;
+    -o-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff401a;
+    text-shadow: 0 0 10px #ff401a, 0 0 50px #ff401a;
 }
 
 footer {
@@ -191,6 +191,7 @@ form {
 .form-group textarea,
 .form-group input {
 	border-radius: 0;
+	border: 2px solid black;
 }
 .btn,
 .btn-x1 {
@@ -228,7 +229,7 @@ form {
 .poster-wrapper h3{
 	font-weight: bold;
 	margin: 5px 0 5px 0;
-	font-size: 18px;
+	font-size: 25px;
 }
 
 .poster-wrapper p{
@@ -245,7 +246,7 @@ form {
   	background-color: rgba(255,255,255,0.5);
   	position: absolute;
   	padding: 10px;
-  	top: 83%;
+  	top: 84%;
   	transition: all 0.5s ease;
   	text-align: left;
 }
@@ -304,7 +305,6 @@ form {
 	font-weight: bold;
 }
 .test {
-	margin-top: 120px;
 	margin-bottom: 50px;
 }
 .price-list {
@@ -357,13 +357,4 @@ table {
 
 #veterinary h2 {
 	font-weight: bold;
-}
-
-.section-heading {
-	position: relative;
-}
-
-#maomitest {
-	margin-right: 18%;
-	padding: auto;
 }
